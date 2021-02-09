@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{ 
+    border-top: 11px solid #960000; 
+    width: 100%;
+    text-align: center;
+}
+
+.header .container{padding: 12px 0px;}
+
+.section-1{
+    background: url('../assets/bg1_l\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-1 .container{padding: 156px 0px 124px 0px;}
+
+@font-face{
+    font-family: myFirstFont;
+    src: url('../fonts/ranillenormalregular-axepm-webfont.woff'),
+        url('../fonts/ranillenormalregular-axepm-webfont.woff2');
+}
+
+.section-1 .top{
+    color: white;
+    text-align: center;
+    font-family: myFirstFont;
+}
+
+.section-1 .top .head{
+    font-size: 65px; 
+    font-weight: 500; 
+    line-height: 78px;
+}
+
+.section-1 .top .text{
+    font-size: 38px; 
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.section-1 .bottom{
+    background: #650101;
+}
+
+.section-1 .bottom .left{
+    padding: 64px 0px 0px 87px;
+    color: white;
+}
+.section-1 .bottom .left .first{
+    padding: 30px 0px; 
+    font-size: 30px;
+    font-family: myFirstFont;
+}
+.section-1 .bottom .right img{padding: 74px 87px;}
+
+/* @media all and (max-width:){
+    .section-1 .container {
+        padding: 30px 0px 30px 0px;
+    }
+} */
+
+.section-2 .container{padding: 79px 0px 101px 0px;}
+.section-2 h1{
+    font-size: 65px;
+    line-height: 75px;
+    font-weight: 500;
+    font-family: myFirstFont;
+    color: #960000;
+}
+
+.section-2 .last{
+    font-family: myFirstFont;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.section-2 .middle{
+    font-family: Open Sans;
+    font-Weight: 300;
+    font-size: 23px;
+    line-height: 35px;
+}
+
+@media screen and (max-width: 600px){
+    .section-1 .bottom .left{
+        padding: 25px 0px 0px 30px;
+    }
+    .section-2 .button{margin: 0 auto;}
+    .section-2 .left h1, .section-2 .left .middle, .section-2 .left .last, .section-2 .left img{padding-left: 20px;}
+    .section-2 .right img{padding-right: 20px;}
+}
+
+@media screen and (min-width: 583px){
+    .section-1 .bottom .right{
+        padding: 10px 30px;
+    } 
+}
+
+.section-2 .left{padding: 106px 10px 106px 0px;}
+.section-2 .right{padding: 45px 0px 30px 35px;}
+
+.section-2 .button{
+    width: auto;
+    font-family: roboto mono;
+    background: #6E8C7B;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 12px 0px 10px 0px;
+    margin: 0px 20px;
+    border-radius: 100px;
+}
+
+@media all and (max-width:768px){
+    .section-2 .left{padding-top: 0px;}
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 75px;
+}
+.footer .container .image{text-align: center; padding: 36px 0px;}
+.footer .footer-content{padding-bottom: 131px;}
+.footer .navbar ul{list-style: none; }
+.footer .navbar ul li{
+    display: inline-block;
+    padding: 30px;
+}
+.footer .navbar ul li a{color: white; }
+
+.footer #copyright{text-align: center;}
